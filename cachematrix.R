@@ -43,3 +43,8 @@ cacheSolve <- function(x, ...) {
     x$setinverse(m)
     m
 }
+
+# a<-matrix(sample(25),5,5)
+# solve(a)
+# d<-makeCacheMatrix(a)
+# cacheSolve(d)
